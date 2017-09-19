@@ -5,11 +5,23 @@ author: "João"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+Hello! <br> I'm [João](https://jfaria.carrd.co), an aspiring astrophysicist,
+sailing the turbulent waters of academia.
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+<!-- </p> -->
+I decided to write a blog because it's a good way to procrastinate.
+Well, that too, but mainly I'm struggling with journal articles
+being the minimum publishing unit for my work.
+Therefore, the _academic_ is about work in progress,
+small enough pieces of research 
+that didn't make it (at least yet) to a paper.
+In the meanwhile, I'll also write about whatever happens every day.
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
 
+
+Have questions or suggestions? 
+Feel free to [ask me on Twitter](https://twitter.com/astroaware)
+or by [email](mailto:joao.faria@astro.up.pt). <br>
 Thanks for reading!
+
+
