@@ -29,3 +29,20 @@ github:
 plugins:
   - jekyll-paginate
   - jekyll-gist
+
+
+authors:
+  joao:
+    display: João Faria
+    gravatar: 
+    email: joao.faria@astro.up.pt
+    web: https://astro.up.pt/~jfaria
+    twitter: astroaware
+    github: j-faria
+  another:
+    display: John Doe
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github: 
