@@ -1,10 +1,10 @@
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      /academic/:year-:month-:day/:title
 
 # Setup
 title:          academic
 paginate:       5
-baseurl:        ""
+baseurl:        /academic
 url:            "https://j-faria.github.io/academic"
 
 # Assets
