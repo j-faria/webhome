@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          academic
 paginate:       5
 baseurl:        ""
 url:            "https://chesterhow.github.io/tale"
@@ -17,15 +17,14 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
-  url:          http://chester.how
-  email:        chesterhow@gmail.com
+  name:         João Faria
+  url:          https://astro.up.pt/~jfaria
+  email:        joao.faria@astro.up.pt
 
 # Custom vars
-version:        3.4.1
+version:        0.0.1
 github:
-  repo:         https://github.com/chesterhow/tale
+  repo:         https://github.com/j-faria/academic
 
-# Gems
-gems:
+plugins:
   - jekyll-paginate
