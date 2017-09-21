@@ -27,7 +27,7 @@ version:        0.0.1
 github:
   repo:         https://github.com/j-faria/academic
 
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-gist
 

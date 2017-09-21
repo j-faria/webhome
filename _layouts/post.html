@@ -8,10 +8,13 @@ layout: default
 <div class="post">
   <div class="post-info">
     <span>Written by&nbsp;</span>{{ author.display }}
-
     {% if page.date %}
       <!-- <br> -->
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+    {% if page.comments %}
+      <br>
+      • <a href="{{ page.url | prepend: site.url  }}#disqus_thread">0 Comments</a> •
     {% endif %}
   </div>
 
@@ -19,6 +22,10 @@ layout: default
   <div class="post-line"></div>
 
   {{ content }}
+
+  {% if page.comments %}
+    {% include disqus.html %}
+  {% endif %}
 
 </div>
 
