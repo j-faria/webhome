@@ -190,11 +190,13 @@ truncated(stats.cauchy, a=-3, b=3, loc=1).rvs(size=100)
 ## wrap up
 
 
-Truncating probability distributions to a certain interval inside their support
-can sometimes be very useful.
-The formulas above describe the pdf, cdf and inverse cdf functions for any truncated distribution,
+Truncating standard probability distributions to an interval $$[a,b]$$ inside their support
+can sometimes be very useful, when setting up priors for example.
+The formulas above describe the pdf, cdf and inverse cdf functions 
+for any truncated (continuous) distribution,
 and the Python implementation complements the distributions already available in Scipy.
 
+<br>
 Let me know in the comments if this is helpful, wrong or super-duper cool.
 
 
