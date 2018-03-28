@@ -196,7 +196,7 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
                                frames=100, interval=100, blit=True);
 ```
 
-et voilá
+et voilà
 
 
 ```python
