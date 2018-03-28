@@ -5,7 +5,7 @@ author: "João"
 permalink: /about/
 ---
 
-Hello! <br> I'm [João](https://jfaria.carrd.co), an aspiring astrophysicist,
+Hello! <br> I'm [João](http://www.iastro.pt/~jfaria), an aspiring astrophysicist,
 sailing the turbulent waters of academia.
 
 <!-- </p> -->
