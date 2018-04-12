@@ -5,12 +5,12 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: comments
   label: Comments
   type: boolean
   hidden: false
-  default: ''
+  default: true
 - name: title
   label: Title
   type: text
@@ -20,7 +20,7 @@ fields:
   label: Author
   type: text
   hidden: false
-  default: ''
+  default: joao
 - name: date
   label: Date
   type: datetime
