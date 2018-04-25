@@ -1,5 +1,8 @@
 ---
+pages:
+- _posts/trip-to-chile-day-0.md
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
