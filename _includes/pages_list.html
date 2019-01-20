@@ -1,0 +1,20 @@
+{% for node in pages_list | sort: 'navigation_order' %}
+  {% if group == null or group == node.group %}
+    {% if page.url == node.url %}
+      <li class="active">
+        <a href="{{site.baseurl}}/{{node.permalink}}" class="active">
+          {{node.navigation_title}}
+        </a>
+      </li>
+    {% else %}
+      <li>
+        <a href="{{site.baseurl}}/{{node.permalink}}">
+          {{node.navigation_title}}
+        </a>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
+

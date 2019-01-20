@@ -7,29 +7,30 @@
     <nav class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
+          <h2><i class="fas fa-igloo"></i></h2>
         </a>
         <ul>
-          <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-          <li><a href="{{ site.baseurl }}/">Posts</a></li>
+          <!-- <li><a href="{{ '/blog' | prepend: site.baseurl }}">About</a></li> -->
+          <!-- <li><a href="{{ site.baseurl }}/">Home</a></li> -->
+          <!-- <li><a href="{{ site.baseurl }}/about">About</a></li> -->
+          <!-- <li><a href="{{ site.baseurl }}/research">Research</a></li> -->
+          <!-- <li><a href="{{ site.baseurl }}/CV">CV</a></li> -->
+          {% assign pages_list = site.pages | sort: 'navigation_order' %}
+          {% assign group = 'navigation' %}
+          {% include pages_list.html %}
+          <!-- <li><a href="{{ site.baseurl }}/blog/">Blog</a></li> -->
         </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
 
     <main>
       {{ content }}
     </main>
 
-    <footer>
-      <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. 
-        Made with <a href="https://jekyllrb.com">Jekyll</a>
-        and <a href="https://github.com/chesterhow/tale/">Tale</a>.
-      </span>
-    </footer>
+  
+  {% include footer.html %}
 
-  <script id="dsq-count-scr" src="//jfaria-academic.disqus.com/count.js" async></script>
-  <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
-  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% include script.html %}
+
   </body>
 </html>

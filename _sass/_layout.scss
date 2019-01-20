@@ -10,6 +10,7 @@ footer,
   margin: 0 auto;
   max-width: 800px;
   width: 80%;
+  font-size: 18px;
 }
 
 .nav {
@@ -57,6 +58,11 @@ footer,
     &:focus {
       opacity: 1;
     }
+
+    .active {
+      text-decoration: underline;
+    }
+
   }
 
   a {
@@ -79,6 +85,31 @@ footer,
   }
 }
 
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 40%;
+  text-align: left;
+}
+.column2 {
+  flex: 40%;
+  text-align: right;
+}
+.column-title{
+  font-size: 20px;
+}
+
+
+.img-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 100px);
+}
+
+
 footer {
   font-family: $palatino;
   padding: 2rem 0;
@@ -86,6 +117,6 @@ footer {
 
   span {
     color: $default-color;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 }

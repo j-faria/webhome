@@ -19,6 +19,23 @@
     margin: 1rem 0;
     text-align: center;
   }
+  
+  &-blog-title {
+    // color: $default-shade;
+    // font-family: $sans-font;
+    font-size: 2rem;
+    // margin: 1rem 0;
+    text-align: right;
+  }
+
+  &-blog-description {
+    // color: $default-shade;
+    // font-family: $sans-font;
+    // font-size: 2rem;
+    margin: .5rem 0 0 5rem;
+    text-align: justify;
+    text-align-last: right;
+  }
 
   &-line {
     border-top: .4rem solid $default-shade;
@@ -34,5 +51,15 @@
 
   a:hover {
     text-decoration: underline;
+  }
+
+  .wider {
+    text-align: center;
+    // position: absolute;
+    // background-color: yellow;
+    // margin: 0 auto;
+    // height: 1000px;
+    width: 1000px;
+    left: 0;
   }
 }
