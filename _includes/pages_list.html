@@ -1,7 +1,7 @@
 {% for node in pages_list | sort: 'navigation_order' %}
   {% if group == null or group == node.group %}
     {% if page.url == node.url %}
-      <li class="active">
+      <li>
         <a href="{{site.baseurl}}/{{node.permalink}}" class="active">
           {{node.navigation_title}}
         </a>

@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: João Faria
-img: me7.jpg
+img: me8.jpg
 # group: "navigation"
 # navigation_title: Home
 # navigation_order: 1

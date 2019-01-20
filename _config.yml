@@ -5,9 +5,9 @@ permalink:      /blog/:title
 # Setup
 title:          João Faria
 paginate:       5
-paginate_path:  "/blog/page:num/"
+paginate_path:  "/blog/page:num"
 # baseurl:        /
-url:            "https://j-faria.github.io/academic"
+# url:            "https://j-faria.github.io/academic"
 
 # Assets
 sass:

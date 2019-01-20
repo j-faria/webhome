@@ -11,14 +11,18 @@
         </a>
         <ul>
           <!-- <li><a href="{{ '/blog' | prepend: site.baseurl }}">About</a></li> -->
-          <!-- <li><a href="{{ site.baseurl }}/">Home</a></li> -->
-          <!-- <li><a href="{{ site.baseurl }}/about">About</a></li> -->
-          <!-- <li><a href="{{ site.baseurl }}/research">Research</a></li> -->
           <!-- <li><a href="{{ site.baseurl }}/CV">CV</a></li> -->
           {% assign pages_list = site.pages | sort: 'navigation_order' %}
           {% assign group = 'navigation' %}
           {% include pages_list.html %}
-          <!-- <li><a href="{{ site.baseurl }}/blog/">Blog</a></li> -->
+          
+          <!-- deal with the blog differently, since it can't have a permalink -->
+          {% if page.url contains 'blog' %}
+            <li><a href="{{site.baseurl}}/blog" class="active">Blog</a></li>
+          {% else %}
+            <li><a href="{{site.baseurl}}/blog">Blog</a></li>
+          {% endif %}
+          <!-- --------------------------------------------------------------- -->
         </ul>
       </div>
     </nav>
