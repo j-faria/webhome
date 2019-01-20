@@ -1,0 +1,73 @@
+---
+layout: default
+title: the academic
+permalink: blog
+group: "navigation"
+navigation_title: Blog
+navigation_order: 5
+---
+
+
+<div class="post">
+  <div class="post-blog-title">the <i>academic</i></div>
+  <!-- <h1 align="right">the <i>academic</i></h1> -->
+  <div class="post-blog-description">
+    I decided to write a blog because it's a good way to procrastinate.
+    <!-- Well, that too, but mainly I'm struggling with journal articles
+    being the minimum publishing unit for my work. -->
+    The <i>academic</i> is about work in progress,
+    small enough pieces of research 
+    that didn't make it (at least yet) to a paper.
+    <!-- In the meanwhile, I'll also write about whatever happens every day. -->
+    <!-- Have questions or suggestions? -->
+    <!-- <br> -->
+    Feel free to comment, 
+    <a href="https://twitter.com/astroaware">ask me on Twitter</a>,
+    or <a href="mailto:joao.faria@astro.up.pt">email</a>.
+    <!-- <br> -->
+    Thanks for reading!
+  </div>
+    
+    <!-- <div class="post-line"></div> -->
+</div>
+
+<div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+    {% endif %}
+  
+    <span>{{paginator.page}} / {{paginator.total_pages}}</span>
+  </div>
+
+
+<div class="catalogue">
+  {% for post in paginator.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
+      <div>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h1 class="catalogue-title">{{ post.title }}</h1>
+        <div class="catalogue-line"></div>
+
+        <p>
+          <!-- {{ post.content | truncatewords: 30 | strip_html }} -->
+          {{ post.excerpt | strip_html }}
+        </p>
+
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <span>{{ paginator.page }}</span>
+</div>
