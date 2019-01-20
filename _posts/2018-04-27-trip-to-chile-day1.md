@@ -9,7 +9,7 @@ date: 2018-04-27
 After arriving in Paranal close to 1am, I had a good night sleep in the Residencia.
 When I woke up and looked out the window, this was the view
 
-![](assets/Paranal_view_room.jpg)
+![]({{site.baseurl}}/assets/Paranal_view_room.jpg)
 
 The morning was calm, and we are now getting ready to go up the mountain
 to start planning the next commissioning nights.

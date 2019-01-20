@@ -89,7 +89,7 @@ def ecc_anomaly(M, e):
 which can produce RV curves like this:
 
 
-![alt](./assets/keplerian-functions.png)
+![alt]({{site.baseurl}}/assets/keplerian-functions.png)
 
 
 ## The time derivative 
@@ -126,7 +126,7 @@ kepp = elementwise_grad(kep)
 That's it!! 
 
 
-![](./assets/keplerian-function-derivative.png)
+![]({{site.baseurl}}/assets/keplerian-function-derivative.png)
 
 <center>
     <img src="http://media.giphy.com/media/EldfH1VJdbrwY/giphy.gif">

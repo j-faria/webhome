@@ -69,7 +69,7 @@ plt.hist(samples); plt.xlabel('y')
 print stats.norm.fit(samples) # --> (2.467719e+20, 6.331523e+19)
 ```
 
-![sum_big_uniforms](assets/sum_big_uniforms.png)
+![sum_big_uniforms]({{site.baseurl}}/assets/sum_big_uniforms.png)
 
 As it turns out, $$y$$ is very constrained just from the priors for the $$x_i$$!  
 (that distribution is not actually a Gaussian, 
