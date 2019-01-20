@@ -1,5 +1,5 @@
-# the Academic
+# 
 
-A blog by João Faria
+The web domain of João Faria (me)
 
 **theme**: [Tale](https://github.com/chesterhow/tale)
