@@ -112,11 +112,26 @@ footer,
 
 footer {
   font-family: $palatino;
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
 
   span {
     color: $default-color;
-    font-size: 1rem;
+    font-size: .9rem;
   }
+
+  p {
+    height: 5px;
+  }
+
+  @media (min-width: 600px) {
+    span {
+      color: $default-color;
+      font-size: 1rem;
+    }
+    p {
+      height: 10px;
+    }
+  }
+
 }
