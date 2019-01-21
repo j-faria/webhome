@@ -15,7 +15,7 @@
   &-title {
     color: $default-shade;
     font-family: $sans-font;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 0;
     text-align: center;
   }
@@ -27,14 +27,24 @@
     // margin: 1rem 0;
     text-align: right;
   }
-
+  
   &-blog-description {
     // color: $default-shade;
     // font-family: $sans-font;
-    // font-size: 2rem;
+    font-size: 1.4rem;
     margin: .5rem 0 0 5rem;
     text-align: justify;
     text-align-last: right;
+  }
+
+  @media (min-width: 600px) {
+    &-blog-description {
+      // color: $default-shade;
+      // font-family: $sans-font;
+      margin: .5rem 0 0 5rem;
+      text-align: justify;
+      text-align-last: right;
+    }
   }
 
   &-line {
