@@ -27,4 +27,4 @@ When I'm not doing research, I like teaching,
 pretending I know how to design things (like this page), 
 I'm a recovering perfectionist, and a bit of a computer geek.
 
-Checkout the links above for my CV and blog, the _academic_.
+Check out the links above for my CV and blog, the _academic_.
