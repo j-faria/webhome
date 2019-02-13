@@ -36,7 +36,7 @@ The two parameters $$a$$ and $$b$$ correspond to the lower and upper bounds of t
 Here is what it looks like, for $$a=1$$, $$b=100$$
 
 <center>
-<img src="assets/loguniform_pdf.png">
+<img src="{{site.baseurl}}/assets/loguniform_pdf.png">
 </center>
 
 
@@ -55,7 +55,7 @@ The support of this modified distribution goes from $$0$$ to $$b$$.
 It looks like this, for $$x_0=1$$ and $$b=100$$
 
 <center>
-<img src="assets/modloguniform_pdf.png">
+<img src="{{site.baseurl}}/assets/modloguniform_pdf.png">
 </center>
 
 
@@ -152,7 +152,7 @@ Depending on the values of these parameters, the distribution can
 have a range of different shapes:
 
 <center>
-<img src="assets/kumaraswamy_pdf.png">
+<img src="{{site.baseurl}}/assets/kumaraswamy_pdf.png">
 </center>
 
 

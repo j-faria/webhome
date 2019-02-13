@@ -156,7 +156,7 @@ ax.plot(x, g.sample_independent(x));
 plt.show()
 ```
 
-<img src="assets/continuous_samples_19_0.png">
+<img src="{{site.baseurl}}/assets/continuous_samples_19_0.png">
 
 Now let's see what `sample_continuous` does.
 
