@@ -8,10 +8,7 @@ navigation_order: 4
 ---
 
 
-The design of this page will improve soon.
-<!-- <div class="wider"> -->
-<!-- <iframe src="{{site.baseurl}}/cv.test.html" width="100%" height="200px"></iframe> -->
-<!-- </div> -->
+Here is a copy of my CV:
 
-<embed src="{{site.baseurl}}/assets/cv.JoaoFaria.pdf" 
-       type="application/pdf" width="100%" height="500px">
+<iframe src="http://docs.google.com/gview?url=https://github.com/j-faria/cv/raw/pdf/cv.JoaoFaria.pdf&embedded=true" 
+        style="width:100%; height:800px;" frameborder="0"></iframe>
