@@ -60,6 +60,10 @@
     text-align: justify;
   }
 
+  &-pubs {
+    font-size: .8rem;
+  }
+
   @media (max-width: 600px) {
     p {
       font-size: 1.4rem;
