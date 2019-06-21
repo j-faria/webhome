@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: blogpost
 comments: true
 title: A big uniform
 author: joao

@@ -1,9 +1,12 @@
 .pagination {
-  border-top: .5px solid $grey-2;
   font-family: $palatino;
   padding-top: 2rem;
   position: relative;
   text-align: center;
+
+  // &-line {
+  //   border-top: .5px solid $grey-2;
+  // }
 
   span {
     color: $default-shade;

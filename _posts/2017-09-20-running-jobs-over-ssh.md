@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: blogpost
 comments: true
 title:  Running jobs over SSH
 author: joao

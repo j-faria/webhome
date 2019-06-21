@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: blogpost
 comments: true
 title:  Time derivative of the Keplerian function
 author: joao

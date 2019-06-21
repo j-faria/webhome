@@ -19,6 +19,10 @@ html {
   }
 }
 
+.en:lang(en), .pt:lang(pt), .fr:lang(fr), .zh:lang(zh){
+  font-weight: bold;
+}
+
 body {
   -webkit-text-size-adjust: 100%;
 }

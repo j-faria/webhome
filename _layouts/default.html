@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> -->
+<html lang="{{ page.lang }}">
 
   {% include head.html %}
 
   <body>
     <nav class="nav">
       <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2><i class="fas fa-igloo"></i></h2>
-        </a>
+        {% if page.lang == "en" %}
+          <a href="{{ site.baseurl }}/">
+        {% elsif page.lang == "pt" %}
+          <a href="{{ site.baseurl }}/pt/">
+        {% endif %}
+            <h2><i class="fas fa-igloo"></i></h2>
+          </a>
         <ul>
+          <!-- <li>{{ page.lang }}</li> -->
+          <!-- <li>{{page.lang}}</li> -->
           <!-- <li><a href="{{ '/blog' | prepend: site.baseurl }}">About</a></li> -->
           <!-- <li><a href="{{ site.baseurl }}/CV">CV</a></li> -->
-          {% assign pages_list = site.pages | sort: 'navigation_order' %}
+          {% assign pages_list = site.pages | where:"lang", page.lang | sort: 'navigation_order' %}
           {% assign group = 'navigation' %}
           {% include pages_list.html %}
           
@@ -23,6 +30,20 @@
             <li><a href="{{site.baseurl}}/blog">Blog</a></li>
           {% endif %}
           <!-- --------------------------------------------------------------- -->
+          <span class="nav-lang">
+            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% if page.url contains 'blog' %}
+            {% assign pages="" %}
+            {% endif %}
+            <li>
+              {% for page in pages %}
+                <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+                {% if forloop.rindex > 1 %}|{% endif %}
+              {% else %}
+                <a href="{{ page.url }}" class="{{ page.lang }}">en</a>
+              {% endfor %}
+            </li>
+          </span>
         </ul>
       </div>
     </nav>

@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: blogpost
 comments: true
 title: Gaussian processes like you never saw them
 author: joao

@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: blogpost
 comments: true
 title:  SWEET-Cat and exoplanet.eu from Python
 author: joao

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Research"
-lang: en
+title: "Investigação"
+lang: pt
 ref: research
-permalink: research
+permalink: investigacao
 group: "navigation"
-navigation_title: Research
+navigation_title: Investigação
 navigation_order: 3
 ---
 
-I'm still writing a few words about my research, come back in a few days.
+Ainda estou a escrever esta página, volte dentro de alguns dias.
 
 
 <!-- ADS custom format:
@@ -21,7 +21,8 @@ I'm still writing a few words about my research, come back in a few days.
 
 ---
 
-Here's a list of papers that I've contributed to
+Aqui está uma lista completa dos artigos científicos 
+para os quais eu contribuí:
 
 <div class="post-pubs">
 <ul>

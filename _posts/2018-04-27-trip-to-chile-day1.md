@@ -1,5 +1,7 @@
 ---
 title: Trip to Chile - day 1
+lang: en
+ref: blogpost
 layout: post
 comments: true
 author: joao
