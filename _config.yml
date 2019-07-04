@@ -1,53 +1,36 @@
-# Permalinks
-# permalink:      /:year-:month-:day/:title
-permalink:      /blog/:title
-
-# Setup
-title:          João Faria
-paginate:       5
-paginate_path:  "/blog/page:num"
-# baseurl:        /
-# url:            "https://j-faria.github.io/academic"
-
-# Assets
+permalink: /blog/:title
+title: João Faria
+paginate: 5
+paginate_path: /blog/page:num
 sass:
-  sass_dir:     _sass
-  style:        :compressed
-
-# is now!
-future : true
-
-# Build settings
-markdown:       kramdown
-
-# About
+  sass_dir: _sass
+  style: :compressed
+future: true
+markdown: kramdown
 author:
-  name:         João Faria
-  url:          https://astro.up.pt/~jfaria
-  email:        joao.faria@astro.up.pt
-
-# Custom vars
-version:        0.0.2
+  name: João Faria
+  url: https://astro.up.pt/~jfaria
+  email: joao.faria@astro.up.pt
+version: 0.0.2
 github:
-  repo:         https://github.com/j-faria/academic
-
+  repo: https://github.com/j-faria/academic
 plugins:
-  - jekyll-paginate
-  - jekyll-gist
-
-
+- jekyll-paginate
+- jekyll-gist
+- jekyll-github-metadata
 authors:
   joao:
     display: João Faria
-    gravatar: 
+    gravatar: null
     email: joao.faria@astro.up.pt
     web: https://astro.up.pt/~jfaria
     twitter: astroaware
     github: j-faria
   another:
     display: John Doe
-    gravatar: 
-    email: 
-    web: 
-    twitter: 
-    github: 
+    gravatar: null
+    email: null
+    web: null
+    twitter: null
+    github: null
+npapers: 31
