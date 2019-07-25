@@ -61,8 +61,29 @@
   }
 
   &-pubs {
-    font-size: .8rem;
+    font-size: 1rem;
+    
+    li {
+      margin: 10px 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 45vw; // width or max-width must be specified
+    }
+
+    li:hover {
+      white-space: normal;
+    }
+    // on a touch device, a click is equivalent to hover - text will expand and remain that way
+
+    // padding: 1em;
+    // line-height: 1.4;
+    // border-radius: 0;
+    // border: none;
+    // background-color: $color-input;
+    // box-shadow: $box-shadow;
   }
+
 
   @media (max-width: 600px) {
     p {
