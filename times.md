@@ -15,8 +15,8 @@ permalink: times
 **Porto** time now: 
 <span id="Porto__Portugal_z714" style="color:#3333cc"></span>
 
-**Santiago** time now: 
-<span id="Santiago_z179" style="color:#3333cc"></span><br/>
+**Cerro Paranal** time now: 
+<span id="Cerro_Paranal_z179" style="color:#3333cc"></span><br/>
 
 <br>
 Find the current time for any location or time zone on 
@@ -42,6 +42,11 @@ time_is_widget.init({
         sun_format:"sunrise: srhour:srminute &mdash; sunset: sshour:ssminute", 
         coords:"-33.4569400,-70.6482700"
         },
+    Cerro_Paranal_z179 : {
+        template:"TIME<br> &nbsp;&nbsp;&nbsp;&nbsp; SUN", 
+        sun_format:"sunrise: srhour:srminute &mdash; sunset: sshour:ssminute", 
+        coords:"-24.6271500,-70.4046300"
+    },
 	});
 </script>
 
