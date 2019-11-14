@@ -8,7 +8,7 @@ author: joao
 ---
 
 _This post was written in a Jupyter notebook, which can be found 
- [here](assets/continuous_samples.ipynb)_  
+ [here]({{site.baseurl}}/assets/continuous_samples.ipynb)_  
 _The Python code below is heavily inspired by the Javascript implementation [here](https://github.com/to-mi/gp-demo-js)_
 
 <hr>
