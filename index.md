@@ -11,13 +11,16 @@ img: me8.jpg
 ---
 
 
-Olá! I'm João, an astrophysicist sailing the turbulent waters of academia.
+*Olá!* 
+I'm João, an astrophysicist sailing the turbulent waters of academia.  
+I'm a researcher at [IA](http://www.iastro.pt),
+and an invited professor at the [University of Porto](https://sigarra.up.pt/fcup/en).
 <!-- {: style="text-align: center"} -->
 
 
-<!-- More on that [here]({{site.baseurl}}/research).   -->
 I work on the detection of exoplanets, 
 mostly using the radial-velocity (RV) method.  
+More on that [here]({{site.baseurl}}/research).  
 
 <!-- During my PhD, I was in charge of an RV survey of metal-poor stars, 
 trying to estimate the occurrence rate of low-mass planets 
