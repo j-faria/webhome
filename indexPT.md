@@ -4,7 +4,7 @@ title: João Faria
 lang: pt
 ref: home
 permalink: pt/
-img: me8.jpg
+img: me-drawing.png
 # group: "navigation"
 # navigation_title: Home
 # navigation_order: 1

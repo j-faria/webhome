@@ -19,6 +19,8 @@ permalink: times
 <span id="Cerro_Paranal_z179" style="color:#3333cc"></span><br/>
 
 <br>
+Open me in a <a href="#" target="_blank" rel="noopener noreferrer">new tab</a>
+
 Find the current time for any location or time zone on 
 <a href="https://time.is/" id="time_is_link" rel="nofollow">Time.is!</a>
 
