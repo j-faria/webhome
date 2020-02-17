@@ -63,13 +63,25 @@
   &-pubs {
     font-size: 1rem;
     
-    li {
-      margin: 10px 0;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      max-width: 45vw; // width or max-width must be specified
+    ul li a span {
+      color: #FF3500;
+      text-decoration: none;
+      // position: relative;
+      // left: -20px;
+      // padding: 20px;
     }
+
+    li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    // li {
+    //   margin: 10px 0;
+    //   overflow: hidden;
+    //   text-overflow: ellipsis;
+    //   white-space: nowrap;
+    //   max-width: 45vw; // width or max-width must be specified
+    // }
 
     li:hover {
       white-space: normal;
@@ -108,5 +120,19 @@
     // height: 1000px;
     width: 1000px;
     left: 0;
+  }
+
+  figure {
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  figcaption {
+    font-size: 0.9em;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
   }
 }
