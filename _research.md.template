@@ -1,0 +1,125 @@
+---
+layout: page
+title: "Research"
+lang: en
+ref: research
+permalink: research
+group: "navigation"
+navigation_title: Research
+navigation_order: 3
+---
+
+_I'm still writing a few more words about my research, come back in a few days._
+
+
+### What I do for a living
+
+I search for exoplanets. Planets around other stars.  
+The ultimate goal is to find a planet like the Earth orbiting a star like the Sun.  
+But that's not so easy. 
+Low-mass planets (like the Earth, with a mere 6 septillion kg)
+impact tiny effects on their host stars,
+in particular changing their _radial velocity_ (RV) or their brightness. 
+This is the basis of the RV 
+(not [that](https://www.amazon.com/RV-Method-Improvisational-Scene-Building/dp/0986071447)) 
+and transit (not [that](https://transitmethod.bandcamp.com/)) methods for planet detection.
+
+
+
+{% include image.html 
+    url="https://dtm.carnegiescience.edu/sites/dtm/files/radial-velocity-GIF_postdoc-spotlight.gif"
+    description="The idea behind the RV method. Credit: <a href='example.com'>NASA JPL</a>"
+%}
+
+
+
+<!-- <img src="https://dtm.carnegiescience.edu/sites/dtm/files/radial-velocity-GIF_postdoc-spotlight.gif" alt="rvmethod" width="80%"/> -->
+
+<!-- ![](https://dtm.carnegiescience.edu/sites/dtm/files/radial-velocity-GIF_postdoc-spotlight.gif) -->
+<!-- *The idea behind the RV method. Credit: NASA JPL* -->
+
+The whole problem boils down to finding periodic signals of very low amplitude
+in radial velocity time series which can cover decades.
+
+...
+
+During my PhD, I was in charge of a radial-velocity survey of metal-poor stars, 
+with the goal of estimating the occurrence rate of low-mass planets in the low metallicity regime.
+I found a planet occurrence rate smaller than that of solar-metallicity stars,
+which means that the famous giant planet -- metallicity correlation
+also extends to the population of low-mass planets.
+
+
+
+### Software
+
+{% assign repos = site.github.public_repositories | where:"fork",false %}
+{% assign disprepos = "kima,bgls,SAM,keplerian,iCCF" | split: "," %}
+{% assign numRepos = site.github.public_repositories | size %}
+{% assign numMembers = site.github.organization_members | size %}
+
+I enjoy writing code and developing software for science.  
+Most of my projects can be found on Github.
+Here are some important ones:
+
+
+{% for repo in repos %}
+{% if disprepos contains repo.name %}
+**[{{ repo.name }}]({{repo.html_url}})** - {{repo.description}}  
+{% endif%}
+{% endfor %}
+
+Over at the [blog]({{site.baseurl}}/blog), I've talked about a number
+of other small codes.
+
+
+<!-- [link]({{ repo.html_url }})
+{{ repo.license.name }} -->
+<!-- | | [![GitHub: repository](https://img.shields.io/badge/GitHub-repo-orange.svg)]({{ repo.html_url }}) -->
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) -->
+  <!-- {%- if repo.name == "keplerian" %}
+    [![PyPI](https://img.shields.io/pypi/v/keplerian.svg)](https://pypi.python.org/pypi/keplerian)
+    [![Travis](https://img.shields.io/travis/j-faria/keplerian.svg)](https://travis-ci.org/j-faria/keplerian)
+    [![Docs](https://readthedocs.org/projects/keplerian/badge/?version=latest)](https://keplerian.readthedocs.i
+o/en/latest/?badge=latest)
+  {%- endif %}
+  {%- if repo.name == "kima" %}
+    [![Build Status](https://travis-ci.org/j-faria/kima.svg?branch=master)](https://travis-ci.org/j-faria/kima)
+    [![status](https://joss.theoj.org/papers/b396d6f8c5566bb67844f05bda0cbc8a/status.svg)](https://joss.theoj.o
+rg/papers/b396d6f8c5566bb67844f05bda0cbc8a)
+  {%- endif %} -->
+<!-- {{ repo | strip_newlines }} -->
+<!--  -->
+
+
+
+<!-- ADS custom format:
+  either:
+ - [%T](%u)  \n%10.1G  \n%Q \n\n 
+  
+  or:
+ <li><a href="%u">%T</a> <br> %3.1G<br> %Q </li> \n
+
+ would be useful to write a script...
+-->
+
+
+<!-- add <a name="tag"></a> to create a tag anywhere -->
+
+### Publications <a title="permalink" href="{{site.baseurl}}/publications"><i class="fas fa-link fa-sm"></i></a>
+
+I am co-author of {{ site.npapers }} refereed research papers.
+Here is a complete list:
+
+<div class="post-pubs">
+<ul class="fa-ul">
+
+<!-- python get_papers.py automatically creates research.md from a template file -->
+
+
+//list-of-publications//
+
+
+</ul>
+
+</div>

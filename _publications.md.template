@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Publications"
+lang: en
+ref: publications
+permalink: publications
+---
+
+
+### <a name="publications"></a> Publications
+
+I am co-author of {{ site.npapers }} refereed research papers.
+Here is a complete list:
+
+
+<div class="post-pubs">
+<ul class="fa-ul">
+
+<!-- python get_papers.py automatically creates publications.md from a template file -->
+
+
+//list-of-publications//
+
+
+</ul>
+
+</div>
+
+<p>Last updated: {{ site.time | date: "%d-%m-%Y" }}</p>

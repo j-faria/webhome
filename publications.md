@@ -2,25 +2,22 @@
 layout: page
 title: "Publications"
 lang: en
-ref: research
+ref: publications
 permalink: publications
-group: "none"
-navigation_title: Publications
 ---
 
 
 ### <a name="publications"></a> Publications
 
-I am co-author of {{ site.npapers }} refereed research papers.  
+I am co-author of {{ site.npapers }} refereed research papers.
 Here is a complete list:
 
 
 <div class="post-pubs">
 <ul class="fa-ul">
 
-<!-- python get_papers.py | xclip, then paste here -->
-<!-- or  -->
-<!-- python get_papers.py | xclip -selection c, then paste here  -->
+<!-- python get_papers.py automatically creates publications.md from a template file -->
+
 
 <li><a target="_blank" href="https://ui.adsabs.harvard.edu/link_gateway/2020A%26A...634A..75B/EPRINT_PDF"><span class="fa-li"><i class="fas fa-file-pdf"></i></span></a><a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2020A&A...634A..75B">Improving transit characterisation with Gaussian process modelling of stellar variability</a> <br> Barros et al. <br> Astronomy and Astrophysics, vol. 634, A75, 2020</li>
 <li><a target="_blank" href="https://ui.adsabs.harvard.edu/link_gateway/2020AJ....159...73N/EPRINT_PDF"><span class="fa-li"><i class="fas fa-file-pdf"></i></span></a><a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2020AJ....159...73N">Quantifying the Bayesian Evidence for a Planet in Radial Velocity Data</a> <br> Nelson et al. <br> The Astronomical Journal, vol. 159, issue 2, pp. 73, 2020</li>
@@ -63,8 +60,6 @@ Here is a complete list:
 <li><a target="_blank" href="https://ui.adsabs.harvard.edu/link_gateway/2014A%26A...566A..35S/EPRINT_PDF"><span class="fa-li"><i class="fas fa-file-pdf"></i></span></a><a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2014A&A...566A..35S">The HARPS search for southern extra-solar planets. XXXV. The interesting case of HD 41248: stellar activity, no planets?</a> <br> Santos et al. <br> Astronomy and Astrophysics, vol. 566, A35, 2014</li>
 <li><a target="_blank" href="https://ui.adsabs.harvard.edu/link_gateway/2012AN....333..954F/EPRINT_PDF"><span class="fa-li"><i class="fas fa-file-pdf"></i></span></a><a target="_blank" href="https://ui.adsabs.harvard.edu/abs/2012AN....333..954F">On the possibility of using seismic probes to study the core composition in pulsating white dwarfs</a> <br> Faria, J. P., Monteiro, M. J. P. F. G. <br> Astronomische Nachrichten, vol. 333, issue 10, pp. 954, 2012</li>
 
-
-<!-- end paste! -->
 
 </ul>
 
