@@ -1,0 +1,32 @@
+---
+layout: page
+title: "Investigação"
+lang: pt
+ref: research
+permalink: investigacao
+group: "navigation"
+navigation_title: Investigação
+navigation_order: 3
+---
+
+Ainda estou a escrever esta página, volte dentro de alguns dias.
+
+
+---
+
+Aqui está uma lista completa dos artigos científicos 
+para os quais eu contribuí:
+
+<div class="post-pubs">
+<ul class="fa-ul">
+
+<!-- python get_papers.py automatically creates research.md from a template file -->
+
+
+//list-of-publications//
+
+
+</ul>
+
+</div>
+
