@@ -10,7 +10,7 @@ permalink: publications
 ### <a name="publications"></a> Publications
 
 I am co-author of {{ site.npapers }} refereed research papers.
-Here is a complete list:
+Here is a complete list[^1]:
 
 
 <div class="post-pubs">
@@ -26,4 +26,9 @@ Here is a complete list:
 
 </div>
 
+<br>
 <p>Last updated: {{ site.time | date: "%d-%m-%Y" }}</p>
+
+---
+[^1]: Author names were omitted in an attempt to keep the list concise but just.  
+      Click the red icons for direct access to the preprint PDF.
