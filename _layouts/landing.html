@@ -2,8 +2,10 @@
 layout: default
 ---
 
+{%include banner.html %}
+
 <div class="land">
-    
+
     <div class="land-avatar">
         <img src="{{ site.baseurl }}/assets/img/{{page.img}}" 
              alt="{{page.title}}" title="Me. Artist's impression." 
@@ -13,7 +15,8 @@ layout: default
     
     <h2 class="land-title">{{ page.title }}</h2>
     <div class="land-line"></div>
-    
+
+
     {{ content }}
 
 </div>

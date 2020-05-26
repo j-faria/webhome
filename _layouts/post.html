@@ -7,14 +7,46 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-    <span>Written by&nbsp;</span>{{ author.display }}
-    {% if page.date %}
-      <!-- <br> -->
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% if page.lang=='pt' %}
+      <span>Escrito por&nbsp;</span>{{ author.display }}
+      {% if page.date %}
+        <!-- <br> -->
+        <span>a</span>
+        <!-- <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time> -->
+        <time datetime="{{ page.date }}">
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}de Janeiro
+          {% when '2' %}de Fevereiro
+          {% when '3' %}de Março
+          {% when '4' %}de Abril
+          {% when '5' %}de Maio
+          {% when '6' %}de Junho
+          {% when '7' %}de Julho
+          {% when '8' %}de Agosto
+          {% when '9' %}de Setembro
+          {% when '10' %}de Outubro
+          {% when '11' %}de Novembro
+          {% when '12' %}de Dezembro
+        {% endcase %}
+        de {{ page.date | date: "%Y" }}
+        </time>
+      {% endif %}
+
+    {% else %}
+      <span>Written by&nbsp;</span>{{ author.display }}
+      {% if page.date %}
+        <!-- <br> -->
+        <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% endif %}
+    
     {% endif %}
+    
+    <br> • 
+
     {% if page.comments %}
-      <br>
-      • <a href="{{ page.url | prepend: site.url  }}#disqus_thread">0 Comments</a> •
+      <a href="{{ page.url | prepend: site.url  }}#disqus_thread">0 Comments</a> •
     {% endif %}
 
     {% assign words = content | number_of_words %}

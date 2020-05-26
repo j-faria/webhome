@@ -1,0 +1,23 @@
+<div 
+    style="background-color: #FFFDDE; 
+           width: 90vw;
+           position: relative;
+           left: 50%;
+           right: 50%;
+           margin-left: -45vw;
+           margin-right: -45vw; 
+           height:35px; 
+           border:thin solid #EDDD00;"
+>
+    <div style='padding-top:5px; text-align:center;'>
+
+        {% if page.lang=='pt' %}
+            ESPRESSO confirma a existência do planeta Proxima b! Leia mais
+            <a href="{{ site.base_url }}/ESPRESSO-confirma-Proxima-b">aqui</a>.
+        {% else %}
+            ESPRESSO confirms the presence of Proxima b! Read more 
+            <a href="{{ site.base_url }}/blog/ESPRESSO-finds-Proxima-b">here</a>.
+        {% endif %}    
+
+    </div> 
+</div>
