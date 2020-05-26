@@ -55,7 +55,7 @@ Proxima não é visível a olho nu, mas está junto a outras duas estrelas, α C
 e B, as duas outras componentes do sistema triplo.
 
 
-![Proxima_Sol]({{site.base_url}}/assets/img/Proxima_Sun.png)
+![Proxima_Sol]({{site.baseurl}}/assets/img/Proxima_Sun.png)
 
 ## O planeta
 
@@ -68,7 +68,7 @@ demora 11.2 dias!
 [^3]: AU é uma unidade de distância, a Unidade Astronómica. Corresponde à 
       distância média entre a Terra e o Sol. Ou seja, a Terra orbita a 1 AU.
 
-![Proxima_orbita]({{site.base_url}}/assets/img/proxima_orbit.png)
+![Proxima_orbita]({{site.baseurl}}/assets/img/proxima_orbit.png)
 
 
 Proxima b é um pouco mais massivo do que a Terra (1.27 massas terrestres) e é,
@@ -78,7 +78,7 @@ suficiente para a água estar em estado liquído. Dizemos que o planeta está na
 zona habitável. Mas isso não quer dizer que seja *habitado*! Isso, não sabemos ainda.
 
 
-![Proxima_Terra]({{site.base_url}}/assets/img/Proxima_b_Earth.png)
+![Proxima_Terra]({{site.baseurl}}/assets/img/Proxima_b_Earth.png)
 
 
 ## O desafio da deteção
@@ -122,7 +122,7 @@ pelo ESPRESSO. Todas estas variações são causadas pela própria estrela. O si
 do planeta aparece adicionado a este sinal de actividade.
 
 
-![Proxima_GP]({{site.base_url}}/assets/img/proxima_GP.png)
+![Proxima_GP]({{site.baseurl}}/assets/img/proxima_GP.png)
 
 
 Mas as novas observações do ESPRESSO são mais impressionantes quando comparadas
@@ -138,7 +138,7 @@ HARPS (a laranja). A melhoria nas barras de erro (que representam a precisão da
 medições) é absolutamente impressionante.
 
 
-![Proxima_phase_curve]({{site.base_url}}/assets/img/proxima_phase_curve.png)
+![Proxima_phase_curve]({{site.baseurl}}/assets/img/proxima_phase_curve.png)
 
 
 Valerá a pena alguma contexto: o ESPRESSO está agora a medir velocidades radiais

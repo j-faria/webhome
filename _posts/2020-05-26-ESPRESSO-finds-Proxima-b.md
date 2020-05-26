@@ -102,7 +102,7 @@ below, you can see the GP model together with the ESPRESSO radial velocities.
 All these variations are caused by the star itself. The signal from the planet
 sits *on top* of this activity signal.
 
-![Proxima_GP]({{site.base_url}}/assets/img/proxima_GP.png)
+![Proxima_GP]({{site.baseurl}}/assets/img/proxima_GP.png)
 
 
 But the new ESPRESSO observations are much more impressive when compared with
@@ -117,7 +117,7 @@ the previous HARPS observations (in orange). The improvement is absolutely
 staggering!
 
 
-![Proxima_phase_curve]({{site.base_url}}/assets/img/proxima_phase_curve.png)
+![Proxima_phase_curve]({{site.baseurl}}/assets/img/proxima_phase_curve.png)
 
 
 For some context: ESPRESSO is now measuring the radial velocity of Proxima with
