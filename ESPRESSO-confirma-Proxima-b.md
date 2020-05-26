@@ -12,7 +12,7 @@ date: 2020-05-26
 
 {% include image.html 
     url="/assets/img/planet_M_dwarf.jpg"
-    description="Credit: ESO/M. Kornmesser"
+    description="Crédito: ESO/M. Kornmesser"
 %}
 
 Em 2016, a descoberta[^1] de um exoplaneta em órbita de Proxima Centauri foi um
