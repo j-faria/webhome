@@ -32,8 +32,8 @@ Very soon, the instruments at the ELT will be able to look at Proxima b with
 new eyes, characterizing the atmosphere of the potentially habitable rocky planet.
 
 <p style="text-align: center;">
-<!-- See the <a href="#" target="_blank">press pelease</a> from IA -->
-<!-- &nbsp; &mdash; &nbsp;  -->
+See the <a href="http://www.iastro.pt/news/news.html?ID=134" target="_blank">press pelease</a> from IA
+&nbsp; &mdash; &nbsp; 
 Read <a href="https://arxiv.org/abs/2005.12114" target="_blank">the paper</a> on the ArXiv
 </p> 
 

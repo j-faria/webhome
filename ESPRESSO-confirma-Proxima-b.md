@@ -38,8 +38,8 @@ planeta potencialmente habitável.
 
 <p style="text-align: center;">
 <!-- Veja o <a href="#" target="_blank">comunicado de imprensa</a> do IA -->
-<!-- Veja o <a href="http://www.iastro.pt/news/news.html?ID=133" target="_blank">comunicado de imprensa</a> do IA -->
-<!-- &nbsp; &mdash; &nbsp;  -->
+Veja o <a href="http://www.iastro.pt/news/news.html?ID=134" target="_blank">comunicado de imprensa</a> do IA
+&nbsp; &mdash; &nbsp; 
 Leia <a href="https://arxiv.org/abs/2005.12114" target="_blank">o artigo</a> no ArXiv (em Inglês)
 </p> 
 
