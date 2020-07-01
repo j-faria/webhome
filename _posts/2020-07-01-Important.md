@@ -6,10 +6,8 @@ comments: true
 title: Important to watch
 author: joao
 excerpt: " "
-youtubeId: jSsoVjTgYJ0
 ---
 
-<!-- {% include youtubePlayer.html id=page.youtubeId %} -->
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h8jUA7JBkF4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
