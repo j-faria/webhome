@@ -41,9 +41,7 @@ Most days you can find me at the Geneva Observatory, in Versoix.
 ### Formal contact details
 
 João P. Faria  
-Instituto de Astrofisica e Ciências do Espaço  
-Faculdade de Ciências da Universidade do Porto  
-Porto, Portugal  
+Geneva Observatory
 Chemin Pegasi, 51
 CH-1290 Versoix, Suisse
 Email: joao.faria@unige.ch
