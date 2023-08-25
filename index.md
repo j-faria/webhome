@@ -13,8 +13,8 @@ img: me-drawing.png
 
 *Olá!* 
 I'm João, an astrophysicist sailing the turbulent waters of academia.  
-I'm a researcher at [IA](http://www.iastro.pt),
-and an invited professor at the [University of Porto](https://sigarra.up.pt/fcup/en).
+I'm a researcher at the 
+[Department of Astronomy of the University of Geneva](https://www.unige.ch/sciences/astro). 
 <!-- {: style="text-align: center"} -->
 
 
