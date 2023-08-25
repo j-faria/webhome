@@ -41,9 +41,9 @@ Most days you can find me at the Geneva Observatory, in Versoix.
 ### Formal contact details
 
 João P. Faria  
-Geneva Observatory
+Geneva Observatory  
 Chemin Pegasi, 51
-CH-1290 Versoix, Suisse
+CH-1290 Versoix, Switzerland  
 Email: joao.faria@unige.ch
 
 
