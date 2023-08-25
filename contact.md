@@ -13,11 +13,11 @@ navigation_order: 5
 ### By email
 
 Send an email to
-<a href="mailto:joao.faria@astro.up.pt" target="_blank">joao.faria@astro.up.pt</a>
+<a href="mailto:joao.faria@unige.ch" target="_blank">joao.faria@unige.ch</a>
 to contact me.
 
-Note that I try to avoid responding to emails on weekends or outside of working
-hours.
+Note that I try to avoid responding to emails 
+on weekends or outside of working hours.
 
 ### Schedule a meeting
 
@@ -30,23 +30,23 @@ The time slots shown there reflect my availability during working hours.
 
 ### Physical office
 
-Even though I'm mostly working remotely these days, I do have a desk in office
-1.04 at the Institute of Astrophysics and Space Sciences in Porto.
+Most days you can find me at the Geneva Observatory, in Versoix.
 
 <center>
-<div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Instituto+de+Astrofisica+e+Ciências+do+Espaço&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embeddedmap-code" href="https://www.embed-map.com" id="authmap-data">https://www.embed-map.com</a><style>#embedmap-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2756.076888006705!2d6.131574411627105!3d46.30831047660394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c66dbe0ae4e17%3A0xdd430cf4725a3672!2sGeneva%20Observatory!5e0!3m2!1sen!2sus!4v1692951662399!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </center>
 
 
 <br>
 ### Formal contact details
 
-João Faria  
+João P. Faria  
 Instituto de Astrofisica e Ciências do Espaço  
 Faculdade de Ciências da Universidade do Porto  
 Porto, Portugal  
-Tel: +351 226 089 855  
-Email: joao.faria@astro.up.pt
+Chemin Pegasi, 51
+CH-1290 Versoix, Suisse
+Email: joao.faria@unige.ch
 
 
 <!-- --- -->
