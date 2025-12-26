@@ -53,14 +53,14 @@ also extends to the population of low-mass planets.
 
 ### Software
 
-<!-- {% assign repos = site.github.public_repositories | where:"fork",false %}
+{% assign repos = site.github.public_repositories | where:"fork",false %}
 {% assign disprepos = "kima,bgls,SAM,keplerian,iCCF" | split: "," %}
 {% assign numRepos = site.github.public_repositories | size %}
 {% assign numMembers = site.github.organization_members | size %}
 
 I enjoy writing code and developing software for science.  
 Most of my projects can be found on Github.
-Here are some important ones: -->
+Here are some important ones:
 
 
 <!-- {% for repo in repos %}
