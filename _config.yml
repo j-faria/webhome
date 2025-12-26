@@ -1,3 +1,4 @@
+repository: j-faria/webhome
 permalink: /blog/:title
 title: João Faria
 paginate: 5
